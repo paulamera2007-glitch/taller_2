@@ -12,3 +12,4 @@ function marcarSeccionActiva() {
   console.log("Marcando la seccion activa segun scroll");
 }
 document.addEventListener("DOMContentLoaded", marcarSeccionActiva);
+// resaltar_enlace_pagina
