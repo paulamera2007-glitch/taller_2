@@ -2,7 +2,7 @@ console.log("Portafolio cargado correctamente");
 function saludar() {
   alert("Gracias por visitar mi portafolio");
 }
-document.addEventListener("DOMContentLoaded", saludar);
+document.addEventListener("DOMContentLoaded",saludar);
 function resaltarMenuActivo() {
   console.log("Resaltando el enlace activo del menu");
 }
@@ -13,3 +13,7 @@ function marcarSeccionActiva() {
 }
 document.addEventListener("DOMContentLoaded", marcarSeccionActiva);
 // resaltar_enlace_pagina
+let yaSaludo = false;
+function saludarUnaVez() {
+  if (!yaSaludo) { saludar(); yaSaludo = true; }
+}
