@@ -7,3 +7,8 @@ function resaltarMenuActivo() {
   console.log("Resaltando el enlace activo del menu");
 }
 document.addEventListener("DOMContentLoaded", resaltarMenuActivo);
+function marcarSeccionActiva() {
+  const secciones = document.querySelectorAll("section");
+  console.log("Marcando la seccion activa segun scroll");
+}
+document.addEventListener("DOMContentLoaded", marcarSeccionActiva);
