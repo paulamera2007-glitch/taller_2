@@ -21,3 +21,8 @@ h2 {
     padding: 0.5rem;
   }
 }
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
